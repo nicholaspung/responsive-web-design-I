@@ -1,3 +1,287 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav,
+section,
+footer,
+.services-header-img,
+.middle-img {
+  width: 89%;
+  margin: 20px 5%;
+}
+
+nav {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p,
+li {
+  margin: 15px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.banner div {
+  text-align: center;
+}
+
+.getStartedImg {
+  width: 40%;
+}
+
+button {
+  padding: 4px 35px;
+  border: 1px solid grey;
+}
+
+button a {
+  text-decoration: none;
+  color: grey;
+}
+
+.top-content,
+.contact,
+.services-middle-content {
+  border-top: 1px solid grey;
+  padding: 40px 0 0 0;
+}
+
+.top-content {
+  display: flex;
+}
+
+.bottom-content {
+  display: flex;
+}
+
+.bottom-content div {
+  margin: 0 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  font-family: "Cute Font", cursive;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.services {
+  padding-bottom: 5px;
+}
+
+.services-middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  padding: 20px 0 0 0;
+}
+
+.services-middle-content div {
+  border: 1px solid black;
+  width: 425px;
+  height: 225px;
+  margin: 20px 0;
+  padding: 25px;
+  background-color: #f4f3f4;
+}
+
+.services-button {
+  color: black;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.services-bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-top: 40px;
+  border-top: 2px solid black;
+}
+
+.services-bottom-content div {
+  width: 425px;
+}
+
+li {
+  list-style-type: square;
+  list-style-position: inside;
+}
 
 
