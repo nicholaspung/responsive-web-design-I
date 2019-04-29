@@ -151,6 +151,7 @@ h5 {
 
 /* Mobile Viewport */
 .container {
+    
 }
 
 p,
@@ -301,8 +302,14 @@ footer {
   nav {
     margin-top: 30px;
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+  }
+
+  nav div {
+      margin: 0;
+      width: auto;
   }
 
   nav a {
