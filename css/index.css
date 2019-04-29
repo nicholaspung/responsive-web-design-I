@@ -150,11 +150,85 @@ h5 {
 }
 
 /* Mobile Viewport */
-.
+.container {
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+}
+
+nav img {
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    color: grey;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid black;
+}
+
+.banner {
+    display: block;
+    width: 95%;
+    text-align: center;
+    padding: 45px 0;
+    border-bottom: 2px solid black;
+    margin: auto;
+}
+
+.banner img {
+    display: none;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+button {
+    padding: 6px 45px;
+    border: 1px solid grey;
+    margin: 20px 0;
+  }
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.top-content {
+    width: 95%;
+    padding: 20px 0;
+    margin: auto;
+}
+
+.top-content div {
+    padding: 20px 0;
+}
+
+.middle-img {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
 
 /* Tablet Viewport */
-@media (min-width: 320px) {
+@media (min-width: 640px) {
+  .container {
+  }
 }
 
 /* Desktop Viewport */
@@ -188,6 +262,7 @@ h5 {
   nav a {
     text-decoration: none;
     color: grey;
+    order: -1;
   }
 
   h1 {
