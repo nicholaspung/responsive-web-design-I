@@ -251,7 +251,7 @@ footer {
 }
 
 /* Tablet Viewport */
-@media (min-width: 640px) {
+@media (min-width: 500px) {
   .container {
   }
 
@@ -284,7 +284,7 @@ footer {
 }
 
 /* Desktop Viewport */
-@media (min-width: 1000px) {
+@media (min-width: 800px) {
   .container {
     width: 1000px;
     margin: 0 auto;
