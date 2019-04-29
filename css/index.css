@@ -153,6 +153,11 @@ h5 {
 .container {
 }
 
+p,
+  li {
+    margin: 15px 0;
+  }
+
 nav {
     width: 100%;
     margin: auto;
@@ -178,7 +183,7 @@ nav a {
 
 .banner {
     display: block;
-    width: 95%;
+    width: 90%;
     text-align: center;
     padding: 45px 0;
     border-bottom: 2px solid black;
@@ -205,14 +210,17 @@ button a {
     font-size: 16px;
 }
 
-.top-content {
-    width: 95%;
+.top-content,
+.bottom-content,
+.contact, 
+footer {
+    width: 90%;
     padding: 20px 0;
     margin: auto;
 }
 
-.top-content div {
-    padding: 20px 0;
+.top-content div, .bottom-content div {
+    padding: 10px 0;
 }
 
 .middle-img {
@@ -222,8 +230,17 @@ button a {
     margin-right: auto;
 }
 
+.bottom-content {
+    border-bottom: 2px solid black;
+}
 
+.contact {
+    padding-top: 40px;
+}
 
+footer {
+    text-align: center;
+}
 
 /* Tablet Viewport */
 @media (min-width: 640px) {
@@ -252,11 +269,6 @@ button a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-
-  p,
-  li {
-    margin: 15px 0;
   }
 
   nav a {
